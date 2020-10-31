@@ -1,0 +1,21 @@
+{
+  "name": "star-wars-sequelize",
+  "version": "1.0.0",
+  "description": "* Install the sequelize and mysql2 npm packages. * Delete the orm from config. In your app folder, create a model folder with a character.js file in the model * In character.js, model out the character table, as detailed in the schema.sql file located in the root of this project directory. * Remove all references to the old orm file and replace it with character.js * Use Sequelize methods in place of the orm calls to retrieve and insert data. * Update connection.js to use sequelize instead of the mysql package.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0216johnsoneric/star-wars-sequelize.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0216johnsoneric/star-wars-sequelize/issues"
+  },
+  "homepage": "https://github.com/0216johnsoneric/star-wars-sequelize#readme"
+}
